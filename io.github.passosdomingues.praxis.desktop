@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=prAxIs
+Comment=Where work becomes action - SCRUM Master for Innovation
+Exec=praxis
+Icon=io.github.passosdomingues.praxis
+Terminal=false
+Categories=Office;Development;Utility;ProjectManagement;
+Keywords=Scrum;Agile;Project;Management;AI;Ollama;
+StartupWMClass=praxis

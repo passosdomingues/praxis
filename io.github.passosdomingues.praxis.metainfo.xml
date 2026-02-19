@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.passosdomingues.praxis</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>prAxIs</name>
+  <summary>High-performance SCRUM Manager with AI integration</summary>
+  <description>
+    <p>
+      prAxIs is a modern, offline-first SCRUM manager designed for innovation environment management.
+      Featuring professional data seeding, COSMIC aesthetic, and deep AI integration via Ollama.
+    </p>
+    <ul>
+      <li>Full Kanban board with drag-and-drop</li>
+      <li>Smart Burndown charts with progress prediction</li>
+      <li>AI Master assistant powered by Deepseek</li>
+      <li>COSMIC/Pop!_OS premium design language</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">io.github.passosdomingues.praxis.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main Board View</caption>
+      <image>https://raw.githubusercontent.com/passosdomingues/praxis/main/screenshots/board.png</image>
+    </screenshot>
+  </screenshots>
+  <icon type="stock">io.github.passosdomingues.praxis</icon>
+  <url type="homepage">https://github.com/passosdomingues/praxis</url>
+  <provides>
+    <binary>praxis</binary>
+  </provides>
+</component>

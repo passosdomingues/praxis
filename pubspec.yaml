@@ -1,0 +1,38 @@
+name: praxis
+description: A high-performance, offline-first SCRUM manager for Linux Desktop.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  drag_and_drop_lists: ^0.4.2
+  fl_chart: ^1.1.1
+  google_fonts: ^8.0.2
+  intl: ^0.20.2
+  
+  # Logic & Data
+  sqflite_common_ffi: ^2.3.0
+  sqlite3: ^3.1.6
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+  uuid: ^4.2.2
+  http: ^1.2.0
+  archive: ^4.0.9
+  provider: ^6.1.1
+  file_picker: ^10.3.10
+  path_provider: any
+  csv: ^7.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
